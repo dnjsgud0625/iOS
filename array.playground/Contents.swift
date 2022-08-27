@@ -41,3 +41,10 @@ print(ages)
 
 ages.append(contentsOf: [11,12,13])
 print(ages)
+
+
+var numm = [1,2,3,4,5]
+var numm2 = [4,5,6,7,8]
+
+//numm.union(numm2) //합집합
+//array에서는 집합함수 사용 불가
