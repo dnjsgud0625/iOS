@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         //받는 타입이 UIColor이므로 생략가능하다
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil) //storyboard 이름 가져옴
-        let detailVC = storyboard.instantiateViewController(withIdentifier: "DetailVC") as DetailVC
+        let detailVC = storyboard.instantiateViewController(withIdentifier: "DetailVC") as! DetailVC
         // 이름은 storyboard에서 해당 뷰컨트롤러 선택 후 입력가능
         
         self.present(detailVC, animated: true, completion: nil)
